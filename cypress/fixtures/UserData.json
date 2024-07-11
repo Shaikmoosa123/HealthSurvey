@@ -1,0 +1,18 @@
+[
+    {
+        "age": "18 or above", "exercise": "Yes"
+    },
+
+    {
+        "age": "Under 18", "exercise": "No"
+    },
+
+    {
+        "age": "Under 18", "exercise": "Yes"
+    },
+
+    {
+        "age": "18 or above", "exercise": "No"
+    }
+
+]
