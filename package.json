@@ -1,4 +1,14 @@
 {
+  "name": "health-survey-automation",
+  "description": "Automate the submission of a Health Survey Form",
+
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy.run": "npx cypress run --browser edge"
+  },
+
+
+
   "devDependencies": {
     "cypress": "^13.13.0",
     "cypress-multi-reporters": "^1.6.4",
@@ -7,4 +17,5 @@
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0"
   }
+
 }
