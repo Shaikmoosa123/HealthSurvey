@@ -1,6 +1,6 @@
 import surveyPage from "../support/SurveyPage";
 
-const faker = require('faker');
+
 
 describe('Health Survey Form Submission Test Suite', () => {
     const SurveyPage = new surveyPage();
@@ -8,10 +8,10 @@ describe('Health Survey Form Submission Test Suite', () => {
     const jsonData = require('../fixtures/userData.json');
 
     jsonData.forEach(data => {
-        it(`Health Survey Form Submission for ${data.age}`, () => {
-            const randomName = faker.name.findName();
+        it(`Health Survey Form Submission for ${data.name}`, () => {
+            
             SurveyPage.visit();
-            SurveyPage.enterName(randomName);
+            SurveyPage.enterName(data.name);
             SurveyPage.selectAge(data.age);
             SurveyPage.selectExerciseOption(data.exercise);
             SurveyPage.submitForm();

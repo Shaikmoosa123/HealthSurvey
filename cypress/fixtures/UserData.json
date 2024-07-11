@@ -1,18 +1,26 @@
 [
     {
-        "age": "18 or above", "exercise": "Yes"
+        "name": "Moosa",
+        "age": "18 or above", 
+        "exercise": "Yes"
     },
 
     {
-        "age": "Under 18", "exercise": "No"
+        "name": "Anil",
+        "age": "Under 18", 
+        "exercise": "No"
     },
 
     {
-        "age": "Under 18", "exercise": "Yes"
+        "name": "Kavya",
+        "age": "Under 18", 
+        "exercise": "Yes"
     },
 
     {
-        "age": "18 or above", "exercise": "No"
+        "name": "Renuka",
+        "age": "18 or above", 
+        "exercise": "No"
     }
 
 ]
